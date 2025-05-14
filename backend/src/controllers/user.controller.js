@@ -2,7 +2,7 @@ import { User } from "../Models/user.model.js";
 import httpStatus from "http-status";
 import bcrypt,{hash} from "bcrypt";
 import crypto from "crypto";
-import { Meeting } from "../models/meeting.model.js";
+import { Meeting } from "../Models/meeting.model.js";
 
 
 const login = async(req,res)=>{
